@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNG Suite">
+  <test thread-count="5" name="TestNG Test">
+    <groups>
+      <run>
+        <include name="Vendors"/>
+        <include name="Calendar"/>
+        <include name="Leads"/>
+        <include name="Accounts"/>
+        <include name="Contacts"/>
+        <include name="Products"/>
+        <include name="Documents"/>
+        <include name="Emails"/>
+        <include name="HelpDesk"/>
+        <include name="Users"/>
+        <include name="ModComments"/>
+        <include name="ProjectTask"/>
+        <include name="Stakeholder"/>
+        <include name="Projects"/>
+        <include name="Proposals"/>
+        <include name="NewTickets"/>
+        <include name="Approvals"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.crm9woodDevBallistixcem.CreateEditDelete9woodDevTest"/>
+    </classes>
+  </test> <!-- TestNG Test -->
+</suite> <!-- TestNG Suite -->
